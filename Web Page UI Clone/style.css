@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bgcolor {
+    height: 100vh;
+    /* Full height of the viewport */
+    width: 100%;
+    background-image: url(bg.png);
+    background-size: cover;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+li {
+
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background-color: white;
+}
+
+.btncont {
+    background-color: #eb087d;
+    /* Green */
+
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn  #tbtn{
+    background-color: transparent;
+    color: #e90f80;
+    border: chartreuse;
+
+}
+
+ul li img {
+    margin-right: 200px;
+}
+
+nav ul li {
+    padding-left: 30px;
+    margin-top: 20px;
+
+}
+
+.card1 {
+
+    background-color: #fcfbfb;
+    margin: 30px 710px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px red;
+}
+.column2 img{
+    display: grid;
+    float: right;
+    
+}
+.socialmedia{
+    display: flex;
+}
+.column1{
+    margin-left: 150px;
+    
+}
+.text2 .tittle{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.text2 .subtittle{
+    font-size: 25px;
+    margin-top: 30px;
+}
+    .btn {
+        margin-top: 30px;
+        display: flex; /* Ensures buttons are aligned horizontally */
+        gap: 30px; /* Adds space between buttons */
+    }
+.socialmedia {
+    margin-top: 100px;
+    display: flex; /* Ensures buttons are aligned horizontally */
+    gap: 20px; 
+    size: 10px;  
+}
